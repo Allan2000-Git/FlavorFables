@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+    .social-icons{
+        @apply hover:scale-75 duration-150 hover:text-[var(--primary-color)]
+    }
+
+    li{
+        @apply duration-200 hover:text-[var(--primary-color)] cursor-pointer
+    }
+
+    .recipe{
+        @apply bg-[var(--primary-color)] px-2 py-1 text-center rounded-[0.3rem] text-[0.9rem]
+    }
+
+    .values{
+        @apply border border-[var(--text-color)] rounded-full py-2
+    }
+}

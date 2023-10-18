@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&family=Raleway:wght@500;600;700&family=Roboto:wght@400;500;700;900&family=Rubik:wght@400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root{
+    --primary-color: #e85d04;
+    --secondary-color: #313235;
+    --background-color: #1f2023;
+    --text-color: #717171;
+    --text-color-light: #9f9f9f;
+    --white: #fff;
+    --black: #000;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background: var(--background-color);
+}
+
+h1, h2{
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.input {
+	background: var(--secondary-color);
+	border: none;
+	width: 100%;
+  height: 55px;
+	border-radius: 5px;
+	padding: 1rem 1rem;
+	font-size: 1.2rem;
+	outline: none;
+	color: var(--white);
+}
